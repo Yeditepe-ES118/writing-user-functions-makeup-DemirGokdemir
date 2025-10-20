@@ -12,7 +12,7 @@ def throw_rock (m, v0, theta):
           "Time of flight is %10.1e s\n"\
           "The range in x-direction is %10.1e m\n"\
           "Maximum height is %10.1e m\n"\
-          "The speed at maximum height is %10.1e m/s\n"\
+          "The speed at maximum height is %10.1e m/s"\
           "Kinetic energy at the maximum height is %8.2e J" % (m, v0, theta * 180/np.pi, tf, r, hm, vh, kh))
     return tf, r, hm, vh, kh
 myresult = throw_rock(1.5, 0.3, 35.20)
